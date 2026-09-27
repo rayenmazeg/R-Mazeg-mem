@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>R.Mazeg.mem</title>
+  <style>
+    *{box-sizing:border-box} body{margin:0;font-family:Arial,sans-serif;background:#0b1020;color:white}
+    .hero{min-height:100vh;display:flex;align-items:flex-end;justify-content:center;
+      background:linear-gradient(180deg,rgba(0,0,0,.05),rgba(0,0,0,.8)),url('main.png') center/cover no-repeat}
+    .card{width:min(900px,92%);margin:0 0 40px;padding:28px;border-radius:24px;
+      background:rgba(0,0,0,.55);backdrop-filter:blur(8px);text-align:center}
+    h1{font-size:clamp(36px,8vw,72px);margin:0 0 10px}
+    p{font-size:20px;margin:8px 0 0;color:#ddd}
+  </style>
+</head>
+<body>
+  <main class="hero">
+    <section class="card">
+      <h1>R.Mazeg.mem</h1>
+      <p>مرحباً بكم في موقعي الشخصي</p>
+    </section>
+  </main>
+</body>
+</html>
